@@ -35,6 +35,14 @@ $pontoChegada, $distancia_Km, $fimDaSemana, $valorCorrida)
     echo "Trajeto: $pontoPartida -> $pontoChegada<br/>";
     echo "Distância: $distancia_Km  km <br/>";
 
+    if($fimDaSemana ===true)
+        {
+           echo "Fim de Semana?: Sim <br/>";
+        }
+    else{
+        echo "Fim de Semana?: Nã0 <br/>";
+    }
+    
     echo "------------------------------------- <br/>";
     echo "Valor Total da Corrida: $valorCorrida kz";
 }
