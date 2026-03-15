@@ -42,7 +42,12 @@ $pontoChegada, $distancia_Km, $fimDaSemana, $valorCorrida)
     else{
         echo "Fim de Semana?: Nã0 <br/>";
     }
-    
+
     echo "------------------------------------- <br/>";
     echo "Valor Total da Corrida: $valorCorrida kz";
 }
+
+$valorTotal = CalcularCorrida($distancia_Km, $fimDaSemana);
+
+MostrarCorrida($nomeDoMotorista, $nomeDoPassageiro, $pontoPartida,
+$pontoChegada, $distancia_Km, $fimDaSemana, $valorTotal);
