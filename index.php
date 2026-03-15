@@ -25,3 +25,16 @@ function CalcularCorrida(float $distancia_Km, $fimDaSemana ):float
 
     return $valorCorrida;
 }
+
+function MostrarCorrida (
+$nomeDoMotorista, $nomeDoPassageiro, $pontoPartida,
+$pontoChegada, $distancia_Km, $fimDaSemana, $valorCorrida)
+{
+    echo "Motorista: $nomeDoMotorista <br/>";
+    echo "Passageiro: $nomeDoPassageiro <br/>";
+    echo "Trajeto: $pontoPartida -> $pontoChegada<br/>";
+    echo "Distância: $distancia_Km  km <br/>";
+
+    echo "------------------------------------- <br/>";
+    echo "Valor Total da Corrida: $valorCorrida kz";
+}
