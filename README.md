@@ -19,9 +19,9 @@ O programa processa o custo de uma viagem com base em parâmetros pré-definidos
 O projeto foi desenvolvido pelos seguintes autores:
 
 *   **Augusto Manuel**
-*   **Deogenio Garcia**
+*   **Deogénio Gaspar**
 *   **Fernando Mister**
-*   **Diavova Pedro**
+*   **Maivova Pedro**
 
 ## 🚀 Como Executar
 
